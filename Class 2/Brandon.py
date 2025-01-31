@@ -9,9 +9,9 @@ else:
 
 # Project 2: Create a program that will ask the user to input a number and will say if the number is odd or even.
 number  = input ("guess a number pls.")
-if number%2 == 0 
+if number%2 == 0:
    print (" evan ")
-   els
+   else:
    print (" odd ")
 
  

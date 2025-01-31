@@ -24,7 +24,7 @@ else:
 
 # Project 3: Create a program that will try to guess my favourite food
 
-Input=
+favourite_food
 
 
 

@@ -48,4 +48,10 @@ balance = 0
 state = input("Would you like to take out money, enter money, or check your balance? ")
 if state == ("take out"):
      out_amount = input("How much would you like to take out?")
+     balance = balance - out_amount
+     print("You have", balance, "pounds in your account")
+elif state == ("enter"):
+    in_amount = input("How much money would you like to enter?")
+    balance = balance + in_amount
+    print("You have", balance, "pounds in your account")
      

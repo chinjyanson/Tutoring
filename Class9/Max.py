@@ -39,3 +39,35 @@ while i < length - 1:
     random_password = random_password + acceptable_characters[random_number]
     i = i + 1
 print(random_password)
+
+
+
+
+
+import random
+def rand:
+    acceptable_characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+[]{}|;:,.<>?"
+    length_of_acceptable_characters = len(acceptable_characters)
+    random_password = ""
+    i = 0
+    while i < 8: 
+        random_number = random.randint(0, length_of_acceptable_characters - 1)
+        random_password = random_password + acceptable_characters[random_number]
+        i = i + 1
+
+sites = ["Gmail", "Instagram", "Roblox", "YouTube", "Discord"]
+passwords = []
+master_password = "123456"
+
+
+length = int(input("How long do you want your password to be?"))
+
+acceptable_characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+[]{}|;:,.<>?"
+length_of_acceptable_characters = len(acceptable_characters)
+random_password = ""
+i = 0
+while i < 8: 
+    random_number = random.randint(0, length_of_acceptable_characters - 1)
+    random_password = random_password + acceptable_characters[random_number]
+    i = i + 1
+print(random_password)
